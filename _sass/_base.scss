@@ -155,7 +155,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/portfolio/main-dark.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -282,6 +282,24 @@ header {
     h2 {
         margin: 0 auto 20px;
     }
+}
+
+.self-picture {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.skill-image {
+    // padding:0 50px 50px 50px;
+    // margin-left: 20px;
+    // text-align: center;
+    animation-name: bounce-6;
+    animation-timing-function: ease;
+    width: 100px;
+    height: 100px
 }
 
 // Bootstrap Overrides
